@@ -1,5 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.workout_tracker">
+
+    <!-- Indicate that this application is meant to run on a Wear OS Device. -->
+    <uses-feature android:name="android.hardware.type.watch" />
+
    <application
         android:label="workout_tracker"
         android:name="${applicationName}"
@@ -25,6 +29,21 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        
+        <service
+           android:name="com.example.workout_tracker.WorkoutTileService"
+           android:label="@string/tile_label"
+           android:description="@string/tile_description"
+           android:exported="true"
+           android:permission="com.google.android.wearable.permission.BIND_TILE_PROVIDER">
+           <intent-filter>
+               <action android:name="androidx.wear.tiles.action.BIND_TILE_PROVIDER" />
+           </intent-filter>
+
+           <!-- <meta-data android:name="androidx.wear.tiles.PREVIEW"
+               android:resource="@drawable/tile_preview" /> -->
+        </service>
+
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
         <meta-data
