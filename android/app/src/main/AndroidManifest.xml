@@ -3,6 +3,7 @@
 
     <!-- Indicate that this application is meant to run on a Wear OS Device. -->
     <uses-feature android:name="android.hardware.type.watch" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
    <application
         android:label="workout_tracker"

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "91752487478",
+    "project_id": "wearos-goal-tracker",
+    "storage_bucket": "wearos-goal-tracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91752487478:android:e38448dd7b62f893809697",
+        "android_client_info": {
+          "package_name": "com.example.workout_tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "91752487478-hgeotcpn8bj78qeqns4a1m8sodr3jsi6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.workout_tracker",
+            "certificate_hash": "4e54068f921c39a2e112361a7bc3db2c71eb8765"
+          }
+        },
+        {
+          "client_id": "91752487478-qnf9m3ifg7hgnul49qq8pcvivu6cb6hl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCinBuNm_hetewZJMxyCvWM8SW8pZkJ9KU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "91752487478-qnf9m3ifg7hgnul49qq8pcvivu6cb6hl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

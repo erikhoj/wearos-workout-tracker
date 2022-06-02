@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="firebase_web_client_id">91752487478-hgeotcpn8bj78qeqns4a1m8sodr3jsi6.apps.googleusercontent.com</string>
     <string name="tile_label">Test Tile</string>
     <string name="tile_description">Test Description</string>
 </resources>
